@@ -1,0 +1,50 @@
+.container {
+    width: 240px;
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .prop h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .prop p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .buttons {
+    margin-top: 15px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button.edit {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  button.delete {
+    background-color: #f44336;
+    color: white;
+    margin-left: 10px;
+  }
+  
